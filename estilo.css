@@ -1,0 +1,22 @@
+*{margin:0;padding: 0;}
+
+header{background-color: rgb(64, 255, 64);
+       text-align: center;
+       padding: 3%;
+       max-width: 100%;
+       
+}
+
+
+.container{background-color: #cdffdc;
+           max-width: 100%;
+           padding: 1%;
+}
+
+.fato{background-color: #8eff7f;
+      padding: 2%;
+      margin: 1%;
+      border-radius: 20px;
+}
+.fato:hover{box-shadow: 0 0 10px #00ff55, 0 0 4px #00ff55;}
+.autor{font-size: 14px;}

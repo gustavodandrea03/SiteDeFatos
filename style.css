@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+    margin: 0;
+    color: #000;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    margin: 0;
+    color: rgb(107, 214, 7);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.form-wrapper {
+    background-color: rgb(221, 221, 221);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.form-wrapper:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-wrapper h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.remove-button {
+    background-color: #d9534f;
+}
+
+button.remove-button:hover {
+    background-color: #ca0700;
+    color: white;
+}
+
+button.cad_button {
+    background-color: #4fd961;
+}
+
+button.cad_button:hover {
+    background-color: #225202;
+    color: white;
+}
