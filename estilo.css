@@ -1,0 +1,91 @@
+:root {
+      --color0: #15b100;
+      --color1: #40ff40;
+      --color2: #93ff93;
+      --color3: #8eff7f;
+    }
+    
+
+*{margin:0;padding: 0;}
+
+header{background-color: var(--color1);
+       text-align: center;
+       padding: 3%;
+       max-width: 100%;
+       
+}
+
+#user{position:absolute;
+      background-color: var(--color2);
+      padding: 1%;
+      right:0;
+      top:1%;
+}
+
+.container{background-color: #cdffdc;
+           max-width: 100%;
+           padding: 1%;
+}
+
+.fato{background-color: var(--color3);
+      padding: 2%;
+      margin: 1%;
+      border-radius: 20px;
+}
+.fato:hover{box-shadow: 0 0 10px #00ff55, 0 0 4px #00ff55;}
+.autor{font-size: 14px;}
+
+a{text-decoration: none;
+      color:black;
+    }
+
+.fatoForm{background-color: var(--color1);
+          position: fixed;
+          width:70%;
+          top:25%;
+          left:100%;
+          height:60%;
+          transition: .4s;
+          text-align: center;
+}
+
+.cadFatoBtn{position: absolute;
+            background-color:var(--color0);
+            border:2px solid #0c6800;
+            bottom:1%;
+            left:40%;
+            height:10%;
+            width:20%;
+}
+
+.btFatoForm{position: absolute;
+            font-size: 20px;
+            width:40px;
+            height:40px;
+            left:-40px; cursor:pointer;
+}
+
+.fatoInput>.fatoForm{left:15%;}
+.fatoInput>.fatoForm .btFatoForm{left:0px;rotate:180deg;}
+
+
+.comentForm{width:90%;
+      margin-left: 5%;
+}
+#inputComent{width:90%;
+       
+      
+}
+
+.btnComent{width:9%;
+     background-color: var(--color0);
+}
+
+.comentario{background-color: #e6e6e6;
+      width:90%;
+      margin-left:5%;
+      margin-bottom:10px;
+      padding:10px;
+      border-radius: 10px;
+      
+}
